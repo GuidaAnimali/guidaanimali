@@ -1,31 +1,60 @@
-<svg width="44" height="44" viewBox="0 0 44 44" xmlns="http://www.w3.org/2000/svg">
-  <!-- sfondo cerchio -->
-  <circle cx="22" cy="22" r="22" fill="#1C3B32"/>
-  <!-- volante -->
-  <circle cx="22" cy="25" r="11" fill="none" stroke="#E3A72B" stroke-width="2.2"/>
-  <line x1="22" y1="16" x2="22" y2="20" stroke="#E3A72B" stroke-width="2.2" stroke-linecap="round"/>
-  <line x1="14.8" y1="29.5" x2="18.5" y2="27.3" stroke="#E3A72B" stroke-width="2.2" stroke-linecap="round"/>
-  <line x1="29.2" y1="29.5" x2="25.5" y2="27.3" stroke="#E3A72B" stroke-width="2.2" stroke-linecap="round"/>
-  <!-- testa cane -->
-  <g>
-    <!-- orecchie -->
-    <path d="M12 12 C8 10 7 16 10 19 L15 16 Z" fill="#F2C572"/>
-    <path d="M32 12 C36 10 37 16 34 19 L29 16 Z" fill="#F2C572"/>
-    <!-- testa -->
-    <ellipse cx="22" cy="15" rx="10.5" ry="9" fill="#FBFAF6"/>
-    <!-- musetto -->
-    <ellipse cx="22" cy="19.5" rx="5.5" ry="4.2" fill="#FFFFFF"/>
-    <!-- occhi -->
-    <circle cx="18.3" cy="13.5" r="1.4" fill="#26312C"/>
-    <circle cx="25.7" cy="13.5" r="1.4" fill="#26312C"/>
-    <!-- naso -->
-    <ellipse cx="22" cy="18" rx="1.6" ry="1.2" fill="#26312C"/>
-    <!-- lingua fuori, simpatica -->
-    <path d="M21 21.5 Q22 25 23.5 21.8" fill="#E4572E"/>
-    <!-- bocca sorridente -->
-    <path d="M18.5 20.5 Q22 23 25.5 20.5" fill="none" stroke="#26312C" stroke-width="1" stroke-linecap="round"/>
-  </g>
-  <!-- zampe sul volante -->
-  <ellipse cx="14.5" cy="28.8" rx="2.6" ry="2" fill="#F2C572"/>
-  <ellipse cx="29.5" cy="28.8" rx="2.6" ry="2" fill="#F2C572"/>
+<svg width="48" height="48" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+  <!-- sfondo -->
+  <circle cx="24" cy="24" r="24" fill="#1C3B32"/>
+
+  <!-- VOLANTE: cerchio completo con razze, ben riconoscibile -->
+  <circle cx="24" cy="30" r="10.5" fill="none" stroke="#E3A72B" stroke-width="2.6"/>
+  <!-- mozzo centrale -->
+  <circle cx="24" cy="30" r="2.6" fill="#E3A72B"/>
+  <!-- razze -->
+  <line x1="24" y1="32.6" x2="24" y2="37" stroke="#E3A72B" stroke-width="2.6" stroke-linecap="round"/>
+  <line x1="21.8" y1="28.7" x2="18" y2="26.5" stroke="#E3A72B" stroke-width="2.6" stroke-linecap="round"/>
+  <line x1="26.2" y1="28.7" x2="30" y2="26.5" stroke="#E3A72B" stroke-width="2.6" stroke-linecap="round"/>
+
+  <!-- zampe che afferrano il volante ai lati -->
+  <ellipse cx="13.5" cy="30" rx="3.1" ry="2.4" fill="#F2C572" transform="rotate(-10 13.5 30)"/>
+  <ellipse cx="34.5" cy="30" rx="3.1" ry="2.4" fill="#F2C572" transform="rotate(10 34.5 30)"/>
+
+  <!-- orecchie -->
+  <path d="M13 8 C6 9 4 17 10 22 C12 19 14 15 16 11 Z" fill="#E3A72B"/>
+  <path d="M35 8 C42 9 44 17 38 22 C36 19 34 15 32 11 Z" fill="#E3A72B"/>
+
+  <!-- testa, posizionata sopra il volante -->
+  <path d="M24 6
+           C30.5 6 35 10.5 35 16
+           C35 19.5 33.2 22.3 30.5 23.7
+           L30.5 24.2
+           C30.5 25.5 29.2 26.4 27.8 26
+           C26.7 26.5 25.4 26.9 24 26.9
+           C22.6 26.9 21.3 26.5 20.2 26
+           C18.8 26.4 17.5 25.5 17.5 24.2
+           L17.5 23.7
+           C14.8 22.3 13 19.5 13 16
+           C13 10.5 17.5 6 24 6 Z"
+        fill="#F2C572"/>
+
+  <!-- macchia muso -->
+  <ellipse cx="24" cy="19.5" rx="7" ry="5.5" fill="#FBFAF6"/>
+
+  <!-- occhio aperto (destro) -->
+  <circle cx="27.3" cy="15.5" r="1.8" fill="#26312C"/>
+  <circle cx="27.9" cy="14.9" r="0.55" fill="#FFFFFF"/>
+
+  <!-- occhio che strizza (sinistro) -->
+  <path d="M18.8 15.5 Q20.6 17.1 22.4 15.5" fill="none" stroke="#26312C" stroke-width="1.5" stroke-linecap="round"/>
+
+  <!-- naso -->
+  <ellipse cx="24" cy="18.8" rx="1.9" ry="1.4" fill="#26312C"/>
+
+  <!-- bocca sorridente -->
+  <path d="M19.8 21 Q24 25 28.2 21" fill="none" stroke="#26312C" stroke-width="1.2" stroke-linecap="round"/>
+
+  <!-- lingua -->
+  <path d="M25.3 23.8 Q27 27.2 28.8 24.2" fill="#E4572E"/>
+
+  <!-- bandana -->
+  <path d="M16.5 25.5 C20.2 28 27.8 28 31.5 25.5 L29.7 30 C25.9 31.8 22.1 31.8 18.3 30 Z" fill="#E4572E"/>
+  <circle cx="24" cy="28.3" r="0.8" fill="#FBFAF6"/>
+  <circle cx="22.8" cy="27.4" r="0.55" fill="#FBFAF6"/>
+  <circle cx="25.2" cy="27.4" r="0.55" fill="#FBFAF6"/>
 </svg>
