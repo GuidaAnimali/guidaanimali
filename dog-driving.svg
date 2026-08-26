@@ -1,0 +1,31 @@
+<svg width="44" height="44" viewBox="0 0 44 44" xmlns="http://www.w3.org/2000/svg">
+  <!-- sfondo cerchio -->
+  <circle cx="22" cy="22" r="22" fill="#1C3B32"/>
+  <!-- volante -->
+  <circle cx="22" cy="25" r="11" fill="none" stroke="#E3A72B" stroke-width="2.2"/>
+  <line x1="22" y1="16" x2="22" y2="20" stroke="#E3A72B" stroke-width="2.2" stroke-linecap="round"/>
+  <line x1="14.8" y1="29.5" x2="18.5" y2="27.3" stroke="#E3A72B" stroke-width="2.2" stroke-linecap="round"/>
+  <line x1="29.2" y1="29.5" x2="25.5" y2="27.3" stroke="#E3A72B" stroke-width="2.2" stroke-linecap="round"/>
+  <!-- testa cane -->
+  <g>
+    <!-- orecchie -->
+    <path d="M12 12 C8 10 7 16 10 19 L15 16 Z" fill="#F2C572"/>
+    <path d="M32 12 C36 10 37 16 34 19 L29 16 Z" fill="#F2C572"/>
+    <!-- testa -->
+    <ellipse cx="22" cy="15" rx="10.5" ry="9" fill="#FBFAF6"/>
+    <!-- musetto -->
+    <ellipse cx="22" cy="19.5" rx="5.5" ry="4.2" fill="#FFFFFF"/>
+    <!-- occhi -->
+    <circle cx="18.3" cy="13.5" r="1.4" fill="#26312C"/>
+    <circle cx="25.7" cy="13.5" r="1.4" fill="#26312C"/>
+    <!-- naso -->
+    <ellipse cx="22" cy="18" rx="1.6" ry="1.2" fill="#26312C"/>
+    <!-- lingua fuori, simpatica -->
+    <path d="M21 21.5 Q22 25 23.5 21.8" fill="#E4572E"/>
+    <!-- bocca sorridente -->
+    <path d="M18.5 20.5 Q22 23 25.5 20.5" fill="none" stroke="#26312C" stroke-width="1" stroke-linecap="round"/>
+  </g>
+  <!-- zampe sul volante -->
+  <ellipse cx="14.5" cy="28.8" rx="2.6" ry="2" fill="#F2C572"/>
+  <ellipse cx="29.5" cy="28.8" rx="2.6" ry="2" fill="#F2C572"/>
+</svg>
