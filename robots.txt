@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://guidaanimali.github.io/guidaanimali/sitemap.xml
